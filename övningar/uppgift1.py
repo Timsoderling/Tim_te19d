@@ -1,0 +1,6 @@
+print (29 + 15 + 12)
+print (12-7) 
+print (24/3 + 9) 
+print (3*43-2)
+print ("hej" + "hej")
+print (3 * "hej")
