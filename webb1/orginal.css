@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: space-between ;
+    margin: 5%;
+    flex-wrap: wrap;
+
+  }
+   body {
+     background-color: white;
+     background-image: image("Images/landscape1.jpg.png");
+     background-size: cover;
+     background-attachment: fixed;
+   }
+  .item {
+    display: flex;
+    flex-grow: 1;
+    height: 100px;
+    width: 100px;
+    background-color : rgb(10, 9, 9);
+    justify-content: center;
+    algin-items: center;
+    padding-bottom: 18%;
+    margin-bottom: 2%;
+  }
+
+   .item:nth-child(3n) {
+   width: 100%
+   }
+
+  .item + .item {
+    margin-left: 2%;
+  }
