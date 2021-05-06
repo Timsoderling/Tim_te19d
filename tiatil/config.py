@@ -1,0 +1,2 @@
+transactions = []
+filename = "banklista.txt"
