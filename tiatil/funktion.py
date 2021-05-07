@@ -72,3 +72,4 @@ def write_transactions_to_file(banklista):
 
     with open(filename, "a") as f:
         f.write("{}\n".format(transactions))
+        

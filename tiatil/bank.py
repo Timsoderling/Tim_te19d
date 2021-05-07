@@ -1,4 +1,4 @@
-from functions import *
+from funktion import *
 from config import *
 
 check_file_exists()
